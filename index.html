@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+		<title>CodeBlue: Comunidad de gente pro code</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="css/estilos.css" />	
+		<link rel="stylesheet" href="css/avgrund.css">
+		<link rel="stylesheet" href="css/registrar_all.css">
+		<link rel="stylesheet" href="css/responsive.css" />
+
+		<script>
+			function openDialog() {
+				Avgrund.show( "#default-popup" );
+			}
+			function closeDialog() {
+				Avgrund.hide();
+			}
+		</script>
+	</head>
+	<body>
+		<aside id="default-popup" class="avgrund-popup">
+			<div id="login">
+		<h2><span class="fontawesome-lock"></span>Sign In</h2>
+			<form  method="POST">
+					<fieldset>
+				<p><label for="email">E-mail</label></p>
+				<p><input type="email" id="email" value="mail@ejemplo.com" onBlur="if(this.value=='')this.value='mail@ejemplo.com'" onFocus="if(this.value=='mail@ejemplo.com')this.value=''"></p> <!-- JS because of IE support; better: placeholder="mail@address.com" -->
+
+				<p><label for="password">Contraseña</label></p>
+				<p><input type="password" id="password" value="contraseña" onBlur="if(this.value=='')this.value='contraseña'" onFocus="if(this.value=='contraseña')this.value=''"></p> <!-- JS because of IE support; better: placeholder="password" -->
+
+				<p><input type="submit" value="Login"></p>
+			<a id="facebook" class="social_registrar" href="#">Facebook</a>
+			<a id="twitter" class="social_registrar" href="#">Twitter</a>
+			<a id="google" class="social_registrar" href="#">google+</a>
+			</fieldset>			
+		</form>
+	</div> <!-- end login -->
+
+		</aside>
+		<div class="avgrund-cover"></div>
+		<header>
+			<figure id="logo">
+				<img src="logo_code.png" />
+			</figure>
+			<h1 id="titulo_header">CodeBlue: Comunidad social tecnologica.</h1>
+			<figure id="avatar" title="Luis Alberto">
+				<img src="avatar.jpg" />
+				<figcaption></figcaption>
+			</figure>
+			<p id="home">
+				<a href="#" onclick="javascript:openDialog();">
+					Home
+				</a>
+			</p>
+		</header>
+		<nav>
+			<ul>
+				<li id="flechita_nav"><a href="#"></a></li>
+				<li><a href="#">Python</a></li>
+				<li><a href="#">HTML5</a></li>
+				<li><a href="#">Javascript</a></li>
+				<li><a href="#">CSS3</a></li>
+				<li><a href="#">Django</a></li>
+				<li><a href="#">Python</a></li>
+				<li id="publicar_nav"><a href="#">Publicar</a></li>
+			</ul>
+		</nav>
+			<aside id="desktop_barra" class="desktop">
+				<aside id="bienvenida">
+					<h2>Hola, registrate!</h2>
+					<p>Registrate</p>
+					<a id="registro" href="#">Registrate acá</a>
+					<p id="mensaje_registro">En serio, registrate por favor</p>
+				</aside>
+				<section id="actividades">
+					<h2 id="titulo_actividades">
+						<a href="#">Actividad</a>
+					</h2>
+					<article class="actividades">
+						<a href="#" class="comentarios_actividades">3134</a>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque.</p>
+					</article>
+					<article class="actividades">
+						<a href="#" class="comentarios_actividades">3134</a>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque.</p>
+					</article>
+					<article class="actividades">
+						<a href="#" class="comentarios_actividades">3134</a>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque.</p>
+					</article>
+					<article class="actividades">
+						<a href="#" class="comentarios_actividades">3134</a>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque.</p>
+					</article>
+				</section>
+			</aside>
+		<section id="contenido_destacado" class="desktop">
+			<article id="item_destacado">
+				<figure>
+					<img src="jirafa.jpg">
+				</figure>
+				<div id="item_articulo">
+					<p class="votacion_destacado">
+						<a class="up" href="#"></a>
+						3141
+						<a class="down" href="#"></a>
+					</p>
+					<h2 class="titulo_item">
+						<a href="#">Una mirada a Leap Motion: El control Minority Report</a>
+					</h2>
+					<p class="autor_item">
+						Por <a href="#">Luis Alberto</a>
+					</p>
+				</div>
+			</article>
+		</section>
+		<section id="contenido">
+			<article class="item">
+				<figure class="imagen_item">
+					<img src="imagen.jpg" />
+				</figure>
+				<h2 class="titulo_item">
+					<a href="#">Una mirada a leap motion: El control minority report</a>
+				</h2>
+				<p class="autor_item">
+					Por <a href="#">Luis Alberto</a>
+				</p>
+				<p class="datos_item">
+					<a class="tag_item" href="#">Categoria</a>
+					<span class="fecha_item">Hace <strong>5</strong> min</span>
+					<a class="comentarios_item" href="#">455</a>
+					<a class="guardar_item" href="#"></a>
+				</p>
+				<p class="votacion">
+					<a class="up" href="#"></a>
+					3141
+					<a class="down" href="#"></a>
+				</p>
+			</article>
+			<article class="item">
+				<figure class="imagen_item">
+					<img src="imagen.jpg" />
+				</figure>
+				<h2 class="titulo_item">
+					<a href="#">Una mirada a leap motion: El control minority report</a>
+				</h2>
+				<p class="autor_item">
+					Por <a href="#">Luis Alberto</a>
+				</p>
+				<p class="datos_item">
+					<a class="tag_item" href="#">Categoria</a>
+					<span class="fecha_item">Hace <strong>5</strong> min</span>
+					<a class="comentarios_item" href="#">455</a>
+					<a class="guardar_item" href="#"></a>
+				</p>
+				<p class="votacion">
+					<a class="up" href="#"></a>
+					3141
+					<a class="down" href="#"></a>
+				</p>
+			</article>
+			<article class="item">
+				<figure class="imagen_item">
+					<img src="imagen.jpg" />
+				</figure>
+				<h2 class="titulo_item">
+					<a href="#">Una mirada a leap motion: El control minority report</a>
+				</h2>
+				<p class="autor_item">
+					Por <a href="#">Luis Alberto</a>
+				</p>
+				<p class="datos_item">
+					<a class="tag_item" href="#">Categoria</a>
+					<span class="fecha_item">Hace <strong>5</strong> min</span>
+					<a class="comentarios_item" href="#">455</a>
+					<a class="guardar_item" href="#"></a>
+				</p>
+				<p class="votacion">
+					<a class="up" href="#"></a>
+					3141
+					<a class="down" href="#"></a>
+				</p>
+			</article>
+			<article class="item">
+				<figure class="imagen_item">
+					<img src="imagen.jpg" />
+				</figure>
+				<h2 class="titulo_item">
+					<a href="#">Una mirada a leap motion: El control minority report</a>
+				</h2>
+				<p class="autor_item">
+					Por <a href="#">Luis Alberto</a>
+				</p>
+				<p class="datos_item">
+					<a class="tag_item" href="#">Categoria</a>
+					<span class="fecha_item">Hace <strong>5</strong> min</span>
+					<a class="comentarios_item" href="#">455</a>
+					<a class="guardar_item" href="#"></a>
+				</p>
+				<p class="votacion">
+					<a class="up" href="#"></a>
+					3141
+					<a class="down" href="#"></a>
+				</p>
+			</article>
+			<article class="item">
+				<figure class="imagen_item">
+					<img src="imagen.jpg" />
+				</figure>
+				<h2 class="titulo_item">
+					<a href="#">Una mirada a leap motion: El control minority report</a>
+				</h2>
+				<p class="autor_item">
+					Por <a href="#">Luis Alberto</a>
+				</p>
+				<p class="datos_item">
+					<a class="tag_item" href="#">Categoria</a>
+					<span class="fecha_item">Hace <strong>5</strong> min</span>
+					<a class="comentarios_item" href="#">455</a>
+					<a class="guardar_item" href="#"></a>
+				</p>
+				<p class="votacion">
+					<a class="up" href="#"></a>
+					3141
+					<a class="down" href="#"></a>
+				</p>
+			</article>
+		</section>
+		<footer>
+			<p><strong>Powered by CodeBlue!</strong></p>
+			<p>CodeBlue 2013 &reg;</p>
+		</footer>
+		<script type="text/javascript" src="js/avgrund.js"></script>
+	</body>
+</html>

@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'multi_fonts';
+	src:url('fonts/multi_fonts.eot');
+	src:url('fonts/multi_fonts.eot?#iefix') format('embedded-opentype'),
+		url('fonts/multi_fonts.woff') format('woff'),
+		url('fonts/multi_fonts.ttf') format('truetype'),
+		url('fonts/multi_fonts.svg#multi_fonts') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'multi_fonts';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-comment"] {
+*/
+.icon-commentcalendar, .icon-commentcalendar-2, .icon-commentclock, .icon-commentclock-2, .icon-commentfacebook, .icon-commentfacebook-2, .icon-commenttwitter, .icon-commentcomment {
+	font-family: 'multi_fonts';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-commentcalendar:before {
+	content: "\e011";
+}
+.icon-commentcalendar-2:before {
+	content: "\e012";
+}
+.icon-commentclock:before {
+	content: "\e013";
+}
+.icon-commentclock-2:before {
+	content: "\e014";
+}
+.icon-commentfacebook:before {
+	content: "\e015";
+}
+.icon-commentfacebook-2:before {
+	content: "\e016";
+}
+.icon-commenttwitter:before {
+	content: "\f017";
+}
+.icon-commentcomment:before {
+	content: "\e006";
+}

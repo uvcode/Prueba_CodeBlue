@@ -1,0 +1,172 @@
+#section_usuario
+{
+  margin-top: 5px;
+  border: 5px solid #009999;
+  border-bottom: 10px solid #009999;
+  border-radius: 0 0 5px 5px;
+}
+@media screen and (min-width: 675px)
+{
+  #contenido
+  {
+    margin-top: 50px;  
+  }
+
+  #contenido,#section_usuario
+  {
+    display: inline-block;
+  }
+  #section_usuario
+  {
+    min-width: 220px;
+    margin-left: 3%;
+   float: left;   
+  
+   
+}
+#section_usuario #usuario .social
+{  
+  margin-left: 2.5px;
+  padding: 2px;
+  background: white;
+}
+#section_usuario #puntos_usuario
+{
+  
+  text-align: center;
+  margin-top: -18px;
+}
+#section_usuario .nombre_usuario
+{
+  
+  text-align: center;
+}
+#section_usuario #usuario figure
+{
+  
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  border-radius: 20px;
+  box-shadow: 20px red;
+  box-shadow: 1px 10px 5px #888888;
+}
+#section_usuario #usuario figure img
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+
+}
+ #contenido_user
+{
+  
+  margin-left: 270px;
+  
+  
+}
+#contenido_user .item_user .datos_item .visitas
+{
+  margin-left: 320px;
+  
+}
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot");
+  src: url("fonts/icomoon.eot?#iefix") format('embedded-opentype'), url("fonts/icomoon.woff") format('woff'), url("fonts/icomoon.ttf") format('truetype'), url("fonts/icomoon.svg#icomoon") format('svg');
+  src: url("fonts/post_comment/icomoon.eot");
+  src: url("fonts/post_comment/icomoon.eot?#iefix") format('embedded-opentype'), url("fonts/icomoon.woff") format('woff'), url("fonts/icomoon.ttf") format('truetype'), url("fonts/icomoon.svg#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#contenido_user .item_user
+{
+  background: #fff;
+  border-bottom: 3px #22bce0 solid;
+  margin-bottom: 3em;
+  min-height: 128px;
+}
+#contenido_user .item_user .imagen_item
+{
+  float: right;
+  margin: 25px 1em 0 0;
+
+}
+#contenido_user .item_user .imagen_item img {
+  width: 96px;
+}
+#contenido_user .item_user .titulo_item
+{
+  
+  font-size: 1em;
+  font-style: italic;
+  padding: 0.5em 90px 0;
+  
+}
+#contenido_user .item_user .titulo_item a
+{
+  color: #5b4d41;
+}
+#contenido_user .item_user .contenido_item
+{
+  font-size: 1em;
+  font-style: italic;
+  padding: 0.1em 1em 0;  
+  width: 75%;
+  margin-left: 75px;
+ 
+}
+#contenido_user .item_user .contenido_item p{
+  color: #ff5400;
+}
+
+#contenido_user .item_user .datos_item
+{
+  
+  padding: 10px 30px;
+}
+
+#contenido_user .item_user .datos_item .tag_item
+{
+  background: #01df1b;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+#contenido_user .item_user .datos_item .fecha_item
+{
+  margin-left: 20px;
+}
+
+#contenido_user .item_user .votacion {
+  background: #fff;
+  border-radius: 0 0 0.5em 0.5em;  
+  margin: 3px 0 0 0;
+  padding: 0.1em 0 ; 
+  text-align: center;  
+  width: 65px;
+  height: 50px;
+  float: left;
+  font-size: 1.5em;
+
+}
+#contenido_user .item_user .votacion a {
+  text-decoration: none;
+}
+#contenido_user .item_user  .votacion .down:after,
+#contenido_user .item_user  .votacion .up:after {
+  font-family: "icomoon";
+  font-family: 1.5em;
+  vertical-align: bottom;
+}
+#contenido_user .item_user  .votacion .down:after {
+  color: #f00;
+  content: "\e001";
+}
+#contenido_user .item_user  .votacion .up:after {
+  color: #008000;
+  content: "\e002";
+}
